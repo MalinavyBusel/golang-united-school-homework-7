@@ -21,10 +21,6 @@ type Person struct {
 	birthDay  time.Time
 }
 
-func NewPerson(first string, last string, date time.Time) Person {
-	return Person{firstName: first, lastName: last, birthDay: date}
-}
-
 //People is a slice of type person
 type People []Person
 
